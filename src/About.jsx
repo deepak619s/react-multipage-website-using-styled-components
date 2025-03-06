@@ -1,7 +1,10 @@
+import { HeroSection } from "./components/HeroSection";
+
 export const About = () => {
-  return (
-    <>
-      <h1>About</h1>
-    </>
-  );
+  const data = {
+    name: "Deep",
+    image: "./images/about1.svg",
+  };
+
+  return <HeroSection {...data}></HeroSection>;
 };
