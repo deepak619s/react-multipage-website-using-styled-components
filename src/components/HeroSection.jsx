@@ -18,9 +18,9 @@ export const HeroSection = () => {
             gamer. A full stack developer, gamer
           </p>
 
-          <Button className="btn hireme-btn">
-            <NavLink to="/contact">Hire Me</NavLink>
-          </Button>
+          <NavLink to="/contact">
+            <Button className="btn hireme-btn">Hire Me</Button>
+          </NavLink>
         </div>
 
         <div className="section-hero-image">
