@@ -2,7 +2,11 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { Button } from "../styles/Button";
 
+import { useGlobalContext } from "../Context";
+
 export const HeroSection = ({ name, image }) => {
+  const { fname, age } = useGlobalContext();
+
   return (
     <Wrapper>
       <div className="container grid grid-two-column">
@@ -10,8 +14,8 @@ export const HeroSection = ({ name, image }) => {
           <p className="hero-top-data">This is me.</p>
           <h1 className="hero-para">{name}</h1>
           <p className="hero-para">
-            I'm Deepak Sinha. A full stack developer, gamer. A full stack
-            developer, gamer. A full stack developer, gamer
+            I'm {fname} {age} years old. A full stack developer, gamer. A full
+            stack developer, gamer. A full stack developer, gamer
           </p>
 
           <Button className="btn hireme-btn">
