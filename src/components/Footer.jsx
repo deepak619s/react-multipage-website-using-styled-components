@@ -100,7 +100,7 @@ const Wrapper = styled.section`
   }
 
   footer {
-    padding: 14rem 0 9rem 0;
+    padding: 14rem 0 3rem 0;
     background-color: ${({ theme }) => theme.colors.footer_bg};
 
     h3 {
@@ -151,6 +151,10 @@ const Wrapper = styled.section`
         text-align: center;
         justify-self: flex-start;
       }
+    }
+
+    footer .footer-social--icons {
+      margin: 0 35rem;
     }
 
     footer .footer-bottom--section {
