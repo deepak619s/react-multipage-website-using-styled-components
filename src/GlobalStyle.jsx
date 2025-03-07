@@ -51,6 +51,7 @@ li {
 .container {
   max-width: 120rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 .grid {
@@ -60,6 +61,7 @@ li {
 
 .grid-two-column {
   grid-template-columns: repeat(2, 1fr);
+  ${"" /* text-align: center; */}
 }
 
 .grid-three-column {
@@ -67,7 +69,8 @@ li {
 }
 
 .grid-four-column{
-   grid-template-columns: 1fr 1.2fr .5fr .8fr ;
+  grid-template-columns: 1fr 1.2fr .5fr .8fr ;
+  text-align: center;
 }
 
 .common-heading {

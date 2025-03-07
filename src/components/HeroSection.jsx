@@ -37,9 +37,8 @@ const Wrapper = styled.section`
   padding: 9rem 0;
 
   .section-hero-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    text-align: justify;
+    margin-left: 50px;
   }
 
   .btn {
