@@ -140,6 +140,7 @@ input[type="submit"]{
   }
 }
 
+//768px
 @media (max-width:${({ theme }) => theme.media.mobile}) {
     html{
       font-size: 50%;
